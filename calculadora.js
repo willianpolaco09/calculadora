@@ -45,7 +45,13 @@ function Adicao(num1, num2){
   console.log(num1 * num2);
  }
  function Divisao (num1, num2){
-  console.log(num1 / num2);
+ if (num2 == 0 ){
+  console.log("Nao existe divisão por zero");
+ }else{
+  
+   console.log(num1 / num2); 
+ }
+
  }
  function Porcentagem (num1, num2){
   console.log(num1 % num2 /100);
